@@ -33,7 +33,7 @@ void insert(int rollnumber, char* name, char* phone, float percentage)
     }
     printf("\n************************************************\n");
     printf("********STUDENT DETAILS ADDED SUCCESSFULLY*********\n");
-    printf("\n************************************************\n");
+    printf("************************************************\n");
     
 }
 void search(int rollnumber)
@@ -46,7 +46,7 @@ void search(int rollnumber)
             printf("Name: %s\n", temp->name);
             printf("Phone: %s\n", temp->phone);
             printf("Percentage: %0.4f\n", temp->percentage);
-            printf("\n****************\n");
+            printf("****************\n");
             return;
         }
         temp = temp->next;
@@ -69,7 +69,7 @@ void update(int rollnumber)
             scanf("%f",&temp->percentage);
             printf("\n************************************************\n");
             printf("********Updation Successful!!!********\n");
-            printf("\n************************************************\n");
+            printf("************************************************\n");
             return;
         }
         temp = temp->next;
@@ -103,7 +103,7 @@ void Delete(int rollnumber)
             }
             printf("\n************************************************\n");
             printf("********Record Successfully Deleted !!!********\n");
-            printf("\n************************************************\n");
+            printf("************************************************\n");
             return;
             
         }
@@ -139,13 +139,12 @@ int main()
     printf("\n\n\n\t\t******WELCOME TO STUDENT RECORD SYSTEM******\n\n\n");
     do
     {
-        printf("\n*****************************\n");
-        printf("1-> Insert student details\n");
+        printf("\n1-> Insert student details\n");
         printf("2-> Search a student details\n");
         printf("3-> Delete a studen details\n");
         printf("4-> Update a student details\n");
         printf("5-> Display a student details\n");
-        printf("*****************************\n");
+        printf("Enter 0 to exit\n");
         printf("Enter Choice: \n");
         scanf("%d", &choice);
         switch (choice)
