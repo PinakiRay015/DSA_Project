@@ -51,7 +51,7 @@ void search(int rollnumber)
         }
         temp = temp->next;
     }
-    printf("\n********Student with roll number %d is not found !!!\n********", rollnumber);
+    printf("\n********Student with roll number %d is not found !!!********\n", rollnumber);
 }
 void update(int rollnumber)
 {
