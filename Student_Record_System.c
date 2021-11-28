@@ -31,7 +31,7 @@ void insert(int rollnumber, char* name, char* phone, float percentage)
         student->next = head;
         head = student;
     }
-    printf("\n************************************************\n");
+    printf("\n*************************************************\n");
     printf("********STUDENT DETAILS ADDED SUCCESSFULLY*********\n");
     printf("************************************************\n");
     
