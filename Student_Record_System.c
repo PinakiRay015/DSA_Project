@@ -42,7 +42,7 @@ void search(int rollnumber)
     while(temp!=NULL){
         if(temp->rollnumber==rollnumber){
             printf("\n****************\n");
-            printf("Roll Number: %d\n", temp->rollnumber);
+            printf("Roll number: %d\n", temp->rollnumber);
             printf("Name: %s\n", temp->name);
             printf("Phone: %s\n", temp->phone);
             printf("Percentage: %0.4f\n", temp->percentage);
