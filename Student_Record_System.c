@@ -32,7 +32,7 @@ void insert(int rollnumber, char* name, char* phone, float percentage)
         head = student;
     }
     printf("\n************************************************\n");
-    printf("********STUDENT DETAILS ADDED SUCCESSFULLY********\n");
+    printf("********STUDENT DETAILS ADDED SUCCESSFULLY*********\n");
     printf("\n************************************************\n");
     
 }
